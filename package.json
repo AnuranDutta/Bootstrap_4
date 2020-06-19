@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "Useful links:-",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnuranDutta/bootstrap_4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnuranDutta/bootstrap_4/issues"
+  },
+  "homepage": "https://github.com/AnuranDutta/bootstrap_4#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
