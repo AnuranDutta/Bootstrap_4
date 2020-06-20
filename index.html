@@ -26,10 +26,10 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a href="#" class="nav-link"><span class="fa fa-home fa-lg"></span>
                             Home</a></li>
-                    <li class="nav-item"><a href="/assignment_1.html" class="nav-link">&nbsp<span
-                                class="fa fa-info fa-lg"></span>&nbsp&nbsp&nbspAbout</a></li>
+                    <li class="nav-item"><a href="/assignment_1.html" class="nav-link">&nbsp;<span
+                                class="fa fa-info fa-lg"></span>&nbsp;&nbsp;&nbsp;About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link"> <span
-                                class="fa fa-list fa-lg"></span>&nbsp&nbspMenu</a></li>
+                                class="fa fa-list fa-lg"></span>&nbsp;&nbsp;Menu</a></li>
                     <li class="nav-item"><a href="/contactUs.html" class="nav-link"><span
                                 class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
@@ -39,7 +39,7 @@
                     </a>
                 </span> -->
                 <span class="navbar-text">
-                    <a>
+                    <a id="myLoginModal" style="cursor: pointer;">
                         <span class="fa fa-sign-in-alt"></span> Login
                     </a>
                 </span>
@@ -193,7 +193,7 @@
                         href="#reserveModal">Reserve Table</a>
                 </div> -->
                 <div class="col-12 col-sm">
-                    <a role="button" class="btn btn-block nav-link btn-warning">Reserve Table</a>
+                    <a role="button" id="myModal" class="btn btn-block nav-link btn-warning">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -423,29 +423,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('#mycarousel').carousel({
-                interval: 2000
-            });
-            $('#carouselButton').click(function () {
-                if ($('#carouselButton').children('span').hasClass('fa-pause')) {
-                    $('#mycarousel').carousel('pause');
-                    $('#carouselButton').children('span').removeClass('fa-pause');
-                    $('#carouselButton').children('span').addClass('fa-play');
-                } else {
-                    $('#mycarousel').carousel('cycle');
-                    $('#carouselButton').children('span').removeClass('fa-play');
-                    $('#carouselButton').children('span').addClass('fa-pause');
-                }
-            });
-        });
-    </script>
+    <script src="/js/scripts.js"></script>
 </body>
 
 </html>
