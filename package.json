@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/AnuranDutta/bootstrap_4#readme",
   "dependencies": {
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "onchange": "^7.0.2",
     "parallelshell": "^3.0.2"
   }
